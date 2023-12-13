@@ -1,0 +1,35 @@
+
+
+span {
+    font-size: 44px;
+}
+
+section {
+    height: 84px;
+    margin: 0px 72px;
+}
+
+.nav {
+    gap: 24px;
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+    left: 0;
+}
+
+.social {
+    right: 0;
+}
+
+#insta {
+    background-image: url('/assets/img/instagram-logo.png');
+    width: 50px;
+    height: 50px;
+}
+
+#mail {
+    background-image: url('/assets/img/mail.png');
+    width: 50px;
+    height: 50px;
+}
