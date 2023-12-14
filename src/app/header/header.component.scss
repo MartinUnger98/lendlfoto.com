@@ -6,7 +6,8 @@ span {
 
 section {
     height: 84px;
-    margin: 0px 72px;
+    background-color: #f1f1ef;
+    border-bottom: 1px solid #000000;
 }
 
 .nav {
@@ -14,22 +15,34 @@ section {
     a {
         text-decoration: none;
         color: #000000;
+        &:hover {
+            text-decoration: underline;
+        }
     }
-    left: 0;
+    left: 72px;
+    
 }
 
 .social {
-    right: 0;
+    right: 72px;
+    gap: 24px;
+}
+
+#insta, #mail {
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.1);
+    }
 }
 
 #insta {
     background-image: url('/assets/img/instagram-logo.png');
-    width: 50px;
-    height: 50px;
+    
 }
 
 #mail {
     background-image: url('/assets/img/mail.png');
-    width: 50px;
-    height: 50px;
 }
